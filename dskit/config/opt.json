@@ -1,0 +1,6 @@
+{
+  "task": "opt",
+  "name": "NiO_opt",
+  "template_dir": ".../NiO_fixone/templates",
+  "working_dir": ".../NiO_fixone"
+}

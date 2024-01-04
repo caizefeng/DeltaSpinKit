@@ -1,0 +1,9 @@
+{
+  "task": "plot",
+  "type": "effective_comparison",
+  "data_dir": ".../NiO_fixone/NiO_compare_60",
+  "plot_type": "compare",
+  "plot_azimuthal_index": 0,
+  "inset_location": [0.26, 0.42, 0.22, 0.22],
+  "no_title": true
+}

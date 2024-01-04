@@ -1,0 +1,5 @@
+{
+  "workload_manager": "SLURM",
+  "submit_file_pattern": "submit.*",
+  "use_default_log_pattern": true
+}

@@ -1,0 +1,7 @@
+{
+  "workload_manager": "PBS",
+  "submit_file_pattern": "submit.*",
+  "use_default_log_pattern": false,
+  "log_file_pattern": "log-${id}.out",
+  "error_string":"errno"
+}

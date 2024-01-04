@@ -1,0 +1,46 @@
+{
+  "task": "PES",
+  "name": "fcc_Fe_spiral",
+  "type": "spin_spiral",
+  "construct_only": true,
+  "template_dir": ".../NiO_fixone/templates",
+  "working_dir": ".../NiO_fixone",
+  "spiral_initial": {
+    "spin_geo": "spiral",
+    "q_direction": [1, 1, 1],
+    "original_spin": [
+      [0, 0, 1],
+      [0, 0, 1],
+      [0, 0, 1],
+      [0, 0, 1]
+    ],
+    "force_spiral": false,
+    "forced_original_theta": 90,
+    "forced_original_phi": 0,
+    "specify_cycloid_plane_when_parallel": true,
+    "specify_cycloid_plane_when_net_zero": true,
+    "force_cycloid_plane": false,
+    "forced_M_direction": [1, 1, 0]
+  },
+  "sampling": {
+    "is_sampling": true,
+    "q": {
+      "range": [0, 1],
+      "number": 11
+    },
+    "lattice": {
+      "range": [3.5457, 3.7457],
+      "number": 10
+    },
+    "m_moment": {
+      "Fe": {
+        "range": [1.55, 1.7],
+        "number": 10
+      }
+    }
+  },
+  "num_batch": 50,
+  "plot_type": "energy",
+  "DeltaSpin": {
+  }
+}

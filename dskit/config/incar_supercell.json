@@ -1,0 +1,6 @@
+{
+  "task": "supercell",
+  "INCAR_orginal": ".../INCAR",
+  "INCAR_supercell": ".../INCAR_sc",
+  "num_supercell": [2, 2, 2]
+}

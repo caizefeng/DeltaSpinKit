@@ -1,0 +1,8 @@
+{
+  "task": "plot",
+  "type": "spherical_distribution",
+  "data_dir": ".../NiO_fixone/NiO_50_50",
+  "is_degree": false,
+  "mark_ground": false,
+  "plot_type": "energy"
+}

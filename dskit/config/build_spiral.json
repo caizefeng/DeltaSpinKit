@@ -1,0 +1,28 @@
+{
+  "task": "spiral",
+  "structure_file": ".../BFO.cif",
+  "template_dir": "/home/xuben/WORK/caizefeng/NiO/NiO_fixone",
+  "working_dir": "/home/xuben/WORK/caizefeng/NiO/NiO_fixone",
+  "output_name_mcif": "BFO.mcif",
+  "output_name_vasp": "BFO.vasp",
+  "build_supercell": [2, 5, 1],
+  "spiral_initial": {
+    "spin_geo": "cycloid",
+    "q": 0.2,
+    "q_direction": [1, 1, 1],
+    "original_spin": [
+      [0, 0, 1],
+      [0, 0, 1],
+      [0, 0, 1],
+      [0, 0, 1]
+    ],
+    "m_moment": {
+      "Fe": 2.2
+    },
+    "force_spiral": false,
+    "forced_original_theta": 90,
+    "forced_original_phi": 0,
+    "force_cycloid_plane": false,
+    "cycloid_plane": [1, 1, 0]
+  }
+}

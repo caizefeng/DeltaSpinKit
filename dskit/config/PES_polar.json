@@ -1,0 +1,25 @@
+{
+  "task": "PES",
+  "name": "NiO_compare_60",
+  "type": "effective_comparison",
+  "diff_delta": 0.01,
+  "ground_state":
+    [[0.519, 0.519, -1.038],
+    [-0.519, -0.519, 1.038],
+    [0.0, 0.0, 0.0],
+    [0.0, 0.0, 0.0]],
+  "atom_index": [0],
+  "norm_spins": {
+    "is_norm": true,
+    "moment": 1.2713
+  },
+  "template_dir": ".../NiO_fixone/templates",
+  "working_dir": ".../NiO_fixone",
+  "num_sampling": [60, 5],
+  "end_point": true,
+  "construct_only": true,
+  "num_batch": 100,
+  "plot_type": "compare",
+  "plot_azimuthal_index": 0,
+  "inset_location": [0.26, 0.42, 0.22, 0.22]
+}
